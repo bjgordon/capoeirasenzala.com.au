@@ -4,20 +4,17 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <section class="hero">
+    <div class="small-container">
+      <h2>Experience Brazilian culture.</h2>
+      <p class="sub-text">Have fun, get fit, and learn Capoeira with <strong>Mestre Rodriguinho</strong>.</p>
+    </div>
+  </section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p>Capoeira Senzala Australia is lead by <strong>Mestre Rodriguinho</strong>
+    and is based in Canberra, Australia. Our main goals are
+    to promote Capoeira and Brazilian Culture and bring
+    the benefits of playing Capoeira to everyone! We hold
+    beginners courses and regular classes through out Canberra.</p>
 
 </div>

@@ -6,14 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Capoeira Senzala Canberra
-email: brendan.gordon@gmail.com
+title: Capoeira Senzala Australia
+email: hi@capoeirasenzala.com.au
 description: > #
   Capoeira Senzala Canberra Australia, lead by Mestre Rodriguinho.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://capoirasenzala.com.au" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-# github_username:
+facebook_username: CapoeiraSenzalaAustralia
 
 # Build settings
 markdown: kramdown
